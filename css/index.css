@@ -173,6 +173,9 @@ header nav a {
 
 .jumbo-about {
     margin-top: 25px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
 }
 
 #box1 {
@@ -213,4 +216,39 @@ header nav a {
 
 #box10 {
     background: dodgerblue;
+}
+
+/* About Page CSS */
+
+.four {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-content: center;
+}
+
+.card {
+    width: 350px;
+    border-bottom: 1px dashed black;
+    padding: 20px;
+    margin: 25px;
+}
+
+.card button{
+    background: white;
+    border-radius: 5px;
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+.card img {
+    margin-bottom: 15px;
+}
+
+.outro {
+    margin-bottom: 15px;
+}
+
+#card1, #card3 {
+    margin-right: 15px;
 }

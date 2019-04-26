@@ -1,7 +1,7 @@
 # Sprint Challenge: User Interface and Git - Multi-Page Website
 
 This challenge allows you to practice the concepts and techniques learned over the past week and apply them in a concrete project. This Sprint explored User Interface and Git. During this Sprint, you studied Semantic HTML, CSS Fundamentals, CSS Flexbox Module, and Git. In your challenge this week, you will demonstrate proficiency by creating a multi page website that has some missing HTML elements as well as CSS specificity problems that need to be solved.  You will also create an additional web page that will be linked to from a navigation you will build.
-
+        
 ## Instructions
 
 **Read these instructions carefully. Understand exactly what is expected _before_ starting this Sprint Challenge.**
@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML is using the code to not only run the website but also tell the next developer to work on it what you were trying to do.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+Display Block makes the content a block type of structure and makes it to where it only wants to play by itself and no one else around it.  Display Inline sets the content to an inline structure with other content.  The main difference between the two is that inline children can be nested within a block but block children can't be nested within an inline parent.
 
 3. What are the 4 areas of the box model?
 
+Going outward: content, padding, border, and margin.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+It works on the cross axis.
+
 5. Explain why git is valuable to a team of developers.
+
+Git allows collaboration between a team of developers instead of one person working on the code and passing off their final version on a disk they are able to publish what they are doing as they are doing it so that everyone can collab and it can be passed back and forth between team members and management.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
